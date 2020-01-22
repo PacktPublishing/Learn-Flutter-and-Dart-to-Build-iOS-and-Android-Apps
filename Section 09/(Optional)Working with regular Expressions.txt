@@ -1,0 +1,24 @@
+[OPTIONAL] Working with Regular Expressions
+Checking text with contains(), startsWith(), endsWith() etc. can be cumbersome and also might still not allow you to check for an exact string pattern.
+
+A URL for example, is not just made up of having "http" or "https" at the beginning (indeed, a valid URL doesn't have to start with either).
+
+You might instead want to watch for a pattern where you have a domain ending (e.g. ".com") in there, possibly followed by a couple of text segments separated by forward slashes (/some/path/after/your/domain).
+
+For more complex cases like this, where you want to ensure that a string matches a certain pattern, you can use a concept called "Regular Expressions". It also exists in other programming languages.
+
+Here's an example:
+
+var urlPattern = r"(https?|ftp)://([-A-Z0-9.]+)(/[-A-Z0-9+&@#/%=~_|!:,.;]*)?(\?[A-Z0-9+&@#/%=~_|!:‌​,.;]*)?";
+var result = new RegExp(urlPattern, caseSensitive: false).firstMatch('https://www.google.com');
+Pretty scary, right?
+
+This snippet takes a regular expression pattern (saved in urlPattern - essentially a string with the special r annotation in front of it, outside of the quotes) and then uses this together with the RegExp class (built into Dart). This class offers utility methods like firstMatch() which checks whether the string you pass as an argument to firstMatch() matches the provided regular expression (urlPattern).
+
+Whilst it looks scary, this allows you to perform powerful checks for special/ advanced patterns.
+
+You can learn more about the "regular expression language" here: https://www.youtube.com/playlist?list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE (this series is about regular expressions in JavaScript but Dart follows the exact same specification).
+
+To be very honest, you don't have to learn, leave alone master, regular expressions. You find plenty of common examples via Google (e.g. "dart regex email").
+
+Also don't use regular expressions for everything! For simple checks, it's more than fine to stick to normal string methods like startsWith().

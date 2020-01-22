@@ -1,0 +1,16 @@
+Avoiding Issues with Provider Package
+In the next lecture, we'll use a new type of provider - at the moment, it seems to be broken (or there was an undocumented change) though.
+
+So if you're facing any issues with the code 
+
+Simply change
+
+provider: ^3.0.0
+in the pubspec.yaml file
+
+to just
+
+provider: 3.0.0
+and re-run flutter packages get (if it doesn't run automatically).
+
+NO disadvantages will occur because of that, no worries.

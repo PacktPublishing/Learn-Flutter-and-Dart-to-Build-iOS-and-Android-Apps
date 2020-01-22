@@ -1,0 +1,11 @@
+Using the Right Provider Package Version
+When it comes to the Provider package (which we use in this course), you can use two versions: Version 3 or version 4 (or higher).
+
+For this course, use version 3 by adding this entry to your pubspec.yaml file (and then running flutter packages get):
+
+dependencies: provider: 3.2.0
+Why not version 4 (or higher)?
+
+You could use that version but it doesn't add anything we need yet it uses a slightly different syntax in some places (i.e. you need to adjust the code you write).
+
+If you want to use it, you find detailed migration steps (from 3 to 4) here: https://pub.dev/packages/provider#migration-from-v3x0-to-v400

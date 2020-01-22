@@ -1,0 +1,1 @@
+https://flutter.dev/docs/resources/inside-flutter

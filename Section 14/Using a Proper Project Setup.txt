@@ -1,0 +1,7 @@
+Using a Proper Project Setup
+Depending on the version of the Flutter SDK you're using, the project you're working on might not have all files you need to follow along in this module.
+
+Make sure you create a project with the following command to get all those files:
+
+flutter create -i objc -a java myapp
+Otherwise, you might be missing crucial iOS and/ or Android files we'll write code in, in this module.

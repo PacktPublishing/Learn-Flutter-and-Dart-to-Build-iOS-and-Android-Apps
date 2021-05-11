@@ -1,0 +1,4 @@
+The following resources might be helpful:
+
+More on JSON Web Tokens - the Tokens we’re using here: http://jwt.io
+Firebase Auth REST API: https://firebase.google.com/docs/reference/rest/auth

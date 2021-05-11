@@ -1,0 +1,10 @@
+Useful Resources & Links
+
+Official Flutter Docs: https://flutter.io/docs/
+macOS Setup Guide: https://flutter.io/setup-macos
+Windows Setup Guide: https://flutter.io/setup-windows
+Windows SDK Download: https://flutter.dev/docs/development/tools/sdk/releases?tab=windows
+Linux Setup Guide: https://flutter.io/setup-linux
+Visual Studio Code: https://code.visualstudio.com/
+Visual Studio Code Flutter Extension: https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+Android Studio: https://developer.android.com/studio/

@@ -1,0 +1,4 @@
+The following resources might be helpful:
+
+Official Navigation Docs: https://flutter.dev/docs/development/ui/navigation
+Named Routes + Arguments: https://flutter.dev/docs/cookbook/navigation/navigate-with-arguments

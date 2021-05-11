@@ -1,0 +1,8 @@
+The following resources might be helpful:
+
+Official Flutter Widget Intro + Deep Dive:
+Part 1 (Stateless Widgets): https://www.youtube.com/watch?v=wE7khGHVkYY
+Part 2 (Stateful Widgets, Widget Tree, Element Tree): https://www.youtube.com/watch?v=AqCMFXEmf3w
+Part 3 (Inherited Widget/ Context): https://www.youtube.com/watch?v=Zbm3hjPjQMk
+Part 4 (Keys): https://www.youtube.com/watch?v=kn0EOS-ZiIc
+App Lifecycle: https://medium.com/pharos-production/flutter-app-lifecycle-4b0ab4a4211a
